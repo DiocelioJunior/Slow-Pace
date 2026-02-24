@@ -1,0 +1,400 @@
+body::-webkit-scrollbar{
+    display: none;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-brand{
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar-brand p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-weight: 600;
+    color: #fff;
+}
+
+.container-row{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hero-section{
+    height: 100vh; 
+    background-image: url(../image/hero.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero-section img{
+    width: 150px;
+    height: 150px;
+}
+
+#hero-section h1{
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    width: 80%;
+}
+
+#accountant-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+
+.accountant-container{
+    background-color: rgba(var(--bs-dark-rgb)) !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  
+}
+
+.accountant{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.accountant-item{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.act-btn-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.btn{
+    border: 1px solid white;
+    font-size: 1.2rem;
+    background-color: transparent!important;
+    font-weight: bold;
+}
+
+#day{
+    border-left: none;
+}
+
+.accountant p{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.accountant h3{
+    font-size: 0.8rem;
+    color: white;
+}
+
+.accountant-container a{
+    font-size: 1rem;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.day-event{
+    background-color: rgba(var(--bs-dark-rgb)) !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.day-event p{
+    font-size: 0.8rem;
+    text-align: center;
+    width: 80%;
+    margin-top: 10px;
+}
+
+.icons-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.icon-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-item p{
+    font-size: 0.8rem;
+    color: white;
+    margin-top: 5px;
+}
+
+.icon-item i{
+    font-size: 1rem;
+    color: white;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.info p{
+    font-size: 1rem;
+}
+
+#info-init span{
+    font-weight: bold;
+}
+
+#info-local{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.icon-whatsapp{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(var(--bs-dark-rgb)) !important;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+.more-info-txt{
+    display: none;
+}
+
+.more-info-txt h2{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+#more-info-btn{
+    border: 1px solid white;
+    font-size: 0.9rem;
+    font-weight: bold;
+    height: 40px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.image-kit{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.image-item{
+    width: 100%;
+}
+
+.image-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.footer {
+  background: #111;
+  color: #fff;
+  padding: 30px 20px;
+  margin-top: 40px;
+}
+
+.footer-container {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.footer-col {
+  flex: 1;
+  min-width: 250px;
+}
+
+.footer h3 {
+  margin-bottom: 15px;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #333;
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.copyright {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+#kit-title{
+    margin-bottom: 20px;
+    color: #fff;
+        display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+#kit-title h1{
+    margin: 0;
+}
+
+
+#kit-title i{
+    font-size: 1.2rem;
+}
+
+#icon-map{
+    color: #fff;
+}
+
+#icon-instagran{
+    color: #fff;
+}
+
+#social-container{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+#route-container{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.instagran-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.social{
+    background-color: red;
+    width: 100%;
+}
+
+
+@media (min-width: 1100px) {
+
+/*.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 10px;
+    padding: 20px;
+}*/
+
+.more-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 10px;
+}
+
+.more-info-txt{
+    display: flex;
+    flex-direction: column;
+}
+
+#more-info-btn{
+    display: none;
+}
+
+.image-kit{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.image-item{
+        height: 600px;
+}
+}
