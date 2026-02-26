@@ -1,164 +1,62 @@
-Slow Pace é um site que conecta corredores a grupos de corrida, mostra corridas na região e destaca produtos em promoção para corredores.
+# 🏃‍♂️ Slow Pace
 
-Vou estruturar como README real de projeto (GitHub-ready).
+Slow Pace é uma plataforma web focada em corredores.  
+O objetivo é conectar atletas a:
 
-🏃‍♂️ Slow Pace
+- 🏃 Grupos de corrida na região
+- 📅 Eventos e corridas locais
+- 🎽 Produtos em promoção para corredores
 
-Conectando corredores, eventos e oportunidades.
+---
 
-Slow Pace é uma plataforma web que conecta pessoas apaixonadas por corrida a grupos locais, eventos esportivos na região e produtos em promoção voltados para corredores.
+## 🚀 Sobre o Projeto
 
-O objetivo é criar um ecossistema onde corredores possam encontrar companhia para treinar, participar de provas e economizar em equipamentos essenciais.
+O **Slow Pace** nasceu com a proposta de centralizar informações importantes para quem pratica corrida, especialmente na região de Franca - SP.
 
-🚀 Funcionalidades
-👥 Conexão com Grupos de Corrida
+A plataforma busca facilitar o acesso a:
 
-Listagem de grupos ativos na região
+- Informações de eventos esportivos
+- Resultados de provas
+- Comunidade de corrida
+- Ofertas voltadas ao público runner
 
-Link direto para grupos oficiais (WhatsApp/Instagram)
+---
 
-Informações sobre horários e locais de treino
+## 🛠️ Tecnologias Utilizadas
 
-🏁 Eventos e Corridas
+- HTML5
+- CSS3
+- Bootstrap 5.3
+- JavaScript (ES Modules)
+- Bootstrap Icons
 
-Exibição de corridas na região
+---
 
-Contador regressivo para próximos eventos
+## 📂 Estrutura do Projeto
 
-Informações detalhadas:
 
-Data
-
-Horário
-
-Localização
-
-Modalidades (5km, 10km, caminhada, etc.)
-
-Estrutura do evento
-
-Integração com Google Calendar
-
-Visualização de percurso (embed Strava)
-
-🛍️ Promoções para Corredores
-
-Área dedicada a produtos com desconto
-
-Divulgação de:
-
-Tênis
-
-Roupas esportivas
-
-Acessórios
-
-Equipamentos
-
-Parcerias com lojas e marcas locais
-
-🎯 Proposta de Valor
-
-Slow Pace não é apenas um site de eventos. Ele é:
-
-🤝 Uma ponte entre corredores
-
-🏃 Um hub de eventos esportivos
-
-💰 Um canal de economia para atletas
-
-🌎 Um impulsionador da comunidade local de corrida
-
-🧱 Tecnologias Utilizadas
-
-HTML5
-
-CSS3
-
-Bootstrap 5
-
-JavaScript Vanilla
-
-Bootstrap Icons
-
-Strava Embed
-
-Instagram Embed
-
-Arquivos principais do projeto:
-
-index.html → Estrutura principal do site 
-
-index
-
-style.css → Estilização personalizada 
-
-style
-
-date.js → Contador regressivo do evento 
-
-date
-
-script.js → Controle de interações da página 
-
-script
-
-📂 Estrutura do Projeto
 Slow-Pace/
 │
 ├── index.html
 ├── css/
-│   └── style.css
+│ └── style.css
 ├── js/
-│   ├── date.js
-│   └── script.js
-├── image/
-│   └── (logos e imagens)
-└── README.md
-⚙️ Como Rodar o Projeto
+│ ├── events.js
+│ └── script.js
+├── data/
+│ └── events.js
+└── image/
+└── slow-pace.png
 
-Clone o repositório:
 
-git clone https://github.com/seu-usuario/slow-pace.git
+---
 
-Abra o arquivo index.html no navegador.
+## 📌 Funcionalidades Atuais
 
-Não é necessário backend para rodar a versão atual.
+- Layout responsivo com Bootstrap
+- Sistema modular em JavaScript
+- Importação de eventos via ES Modules
+- Estrutura preparada para renderização dinâmica
+- Footer institucional
 
-🌍 Público-Alvo
-
-Corredores iniciantes
-
-Atletas amadores
-
-Participantes de corridas regionais
-
-Organizadores de eventos esportivos
-
-Lojas de artigos esportivos
-
-📈 Futuras Implementações
-
-🔐 Sistema de login para corredores
-
-📍 Geolocalização automática de eventos
-
-🗺️ Filtro por cidade
-
-💬 Chat entre membros
-
-🛒 Marketplace integrado
-
-🏆 Ranking local de atletas
-
-📊 Dashboard de desempenho
-
-🧠 Visão do Projeto
-
-Criar a principal plataforma regional de corrida do interior paulista, conectando pessoas, eventos e oportunidades comerciais em um único ambiente digital.
-
-👨‍💻 Desenvolvido por
-
-Diocelio Jr.
-D.Coder – Soluções Digitais
-© 2026
+---
