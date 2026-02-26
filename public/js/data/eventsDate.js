@@ -1,0 +1,346 @@
+export const events = [
+    {
+        "nome": "5º Circuito Franca Run",
+        "cidade": "Franca-SP",
+        "distancias": "5k, 10k",
+        "organizacao": "ITCE",
+        "data": "29 de jun. de 2025",
+        "link": "https://cronew.com.br/Resultados/glive/g-live2.html?f=5%20Circuito%20Franca.clax"
+    },
+    {
+        "nome": "Corrida Unimed Alta Mogiana 10ª. edição",
+        "cidade": "Orlândia-SP",
+        "distancias": "5k, 10k, KIDS, Caminhada",
+        "organizacao": "Personew",
+        "data": "14 de set. de 2025",
+        "link": "https://www.unimedaltamogiana.com.br/corrida/"
+    },
+    {
+        "nome": "TRACK&FIELD EXPERIENCE - IGUATEMI SÃO CARLOS",
+        "cidade": "São Carlos -SP",
+        "distancias": "5k, 10k",
+        "organizacao": "TF Sports",
+        "data": "18 de jan. de 2026",
+        "link": "https://www.tfsports.com.br/tf-experience/"
+    },
+    {
+        "nome": "Corrida Zeferina - Maria Brasileira",
+        "cidade": "Sertãozinho-SP",
+        "distancias": "5k",
+        "organizacao": "Paulinho Sports",
+        "data": "18 de jan. de 2026",
+        "link": "https://minhasinscricoes.com.br/Evento/CorridaZeferinaMariabrasileira"
+    },
+    {
+        "nome": "3ª MARATONA OFICIAL DE RIBEIRÃO PRETO",
+        "cidade": "Ribeirão Preto- SP",
+        "distancias": "5k, 10k, 21k, 42k, Caminhada",
+        "organizacao": "Matheus Equilíbrio",
+        "data": "25 de jan. de 2026",
+        "link": "https://www.ticketsports.com.br/e/maratona-oficial-de-ribeirao-preto-piracanjuba-proforce-2026-71265"
+    },
+    {
+        "nome": "TRACK&FIELD EXPERIENCE - CARNARUN",
+        "cidade": "Jaú-SP",
+        "distancias": "5k",
+        "organizacao": "TF Sports",
+        "data": "8 de fev. de 2026",
+        "link": "https://www.tfsports.com.br/tf-experience/experience-97/"
+    },
+    {
+        "nome": "9ª CORRIDA TARTARUGA",
+        "cidade": "Colina-SP",
+        "distancias": "5k, 10k",
+        "organizacao": "TARTARUGA CENTRO DE TREINAMENTO",
+        "data": "8 de fev. de 2026",
+        "link": "https://www.ticketsports.com.br/e/9-corrida-tartaruga-85430"
+    },
+    {
+        "nome": "1ª CORRIDA VIRA-VIROU",
+        "cidade": "Barrinha - SP",
+        "distancias": "5k",
+        "organizacao": "MARCIO RUIZ",
+        "data": "22 de fev. de 2026",
+        "link": "https://www.ticketsports.com.br/e/corrida-vira-virou-74372"
+    },
+    {
+        "nome": "RUNFORLIFE 2026 - ETAPA RIBEIRÃO PRETO",
+        "cidade": "Ribeirão Preto- SP",
+        "distancias": "5k, 10k",
+        "organizacao": "Forlifebr",
+        "data": "22 de fev. de 2026",
+        "link": "https://www.forlifebr.com.br/inscricoes"
+    },
+    {
+        "nome": "Corrida Vira-Virou",
+        "cidade": "Barrinha-SP",
+        "distancias": "5k",
+        "organizacao": "MARCIO RUIZ",
+        "data": "22 de fev. de 2026",
+        "link": "https://www.ticketsports.com.br/e/corrida-vira-virou-74372"
+    },
+    {
+        "nome": "TRACK&FIELD EXPERIENCE - CB AUTOS",
+        "cidade": "Araraquara - SP",
+        "distancias": "5k, 10k",
+        "organizacao": "TF Sports",
+        "data": "22 de fev. de 2026",
+        "link": "https://www.tfsports.com.br/tf-experience/experience-109/"
+    },
+    {
+        "nome": "10º PARQUE NIGHT RUN",
+        "cidade": "Barretos - SP",
+        "distancias": "5k, 10k, 21k",
+        "organizacao": "PARQUE NIGHT RUN",
+        "data": "7 de mar. de 2026",
+        "link": "https://www.ticketsports.com.br/e/parque-night-run-x-edicao-84921"
+    },
+    {
+        "nome": "Santander Track&Fields Run Series - Ribeirão Shopping I",
+        "cidade": "Ribeirão Preto-SP",
+        "distancias": "5k, 10k",
+        "organizacao": "TF Sports",
+        "data": "8 de mar. de 2026",
+        "link": "https://www.tfsports.com.br/"
+    },
+    {
+        "nome": "TRACK&FIELD RUN SERIES RIBEIRÃOSHOPPING - ETAPA 1",
+        "cidade": "Ribeirão Preto- SP",
+        "distancias": "5k, 10k",
+        "organizacao": "TF Sports",
+        "data": "8 de mar. de 2026",
+        "link": "https://www.tfsports.com.br/app/"
+    },
+    {
+        "nome": "CIRCUITO DAS ESTAÇÕES RIBEIRÃO PRETO - OUTONO",
+        "cidade": "Ribeirão Preto- SP",
+        "distancias": "5k, 10k",
+        "organizacao": "Norte Marketing Esportivo",
+        "data": "8 de mar. de 2026",
+        "link": "https://www.circuitodasestacoes.com.br/ribeirao-preto/outono"
+    },
+    {
+        "nome": "Corrida Fórmula Express",
+        "cidade": "Franca-SP",
+        "distancias": "4k, 8k, Caminhada",
+        "organizacao": "Personew",
+        "data": "8 de mar. de 2026",
+        "link": "https://www.personew.esp.br/corridaformulaexpress"
+    },
+    {
+        "nome": "ROVE RUN",
+        "cidade": "Monte Azul Paulista - SP",
+        "distancias": "5k",
+        "organizacao": "ROVE SPORTS",
+        "data": "15 de mar. de 2026",
+        "link": "https://www.ticketsports.com.br/e/rove-run-74698"
+    },
+    {
+        "nome": "TRACK&FIELD EXPERIENCE - RUNNING JABOTICABAL",
+        "cidade": "Jaboticabal - SP",
+        "distancias": "5k, 10k",
+        "organizacao": "TF Sports",
+        "data": "15 de mar. de 2026",
+        "link": "https://www.tfsports.com.br/tf-experience/experience-117/"
+    },
+    {
+        "nome": "2ª Corrida Contra a Pólio Rotaract",
+        "cidade": "Ribeirão Preto-SP",
+        "distancias": "4k, 8k",
+        "organizacao": "JBX Mind",
+        "data": "22 de mar. de 2026",
+        "link": "https://www.ticketsports.com.br/e/2-corrida-contra-a-polio-rotaract-74261"
+    },
+    {
+        "nome": "Elas Run",
+        "cidade": "Franca-SP",
+        "distancias": "4k, 8k, Caminhada",
+        "organizacao": "Personew",
+        "data": "22 de mar. de 2026",
+        "link": "https://www.personew.esp.br/elasrun"
+    },
+    {
+        "nome": "Rifaina Run 2026",
+        "cidade": "Rifaina-SP",
+        "distancias": "5k, 10k",
+        "organizacao": "Renato - Rifaina",
+        "data": "22 de mar. de 2026",
+        "link": "https://sportbro.com.br/v2/rifainarun2026"
+    },
+    {
+        "nome": "15ª SERMED NIGHT RUNNERS",
+        "cidade": "Sertãozinho - SP",
+        "distancias": "5k, 10k",
+        "organizacao": "ACADEMIA NICE ONE",
+        "data": "28 de mar. de 2026",
+        "link": "https://www.ticketsports.com.br/e/15-sermed-night-run-2026-85482"
+    },
+    {
+        "nome": "BRUNCH RUN 2026",
+        "cidade": "Ribeirão Preto - SP",
+        "distancias": "4k, 8k, Caminhada",
+        "organizacao": "MK Sport",
+        "data": "29 de mar. de 2026",
+        "link": "https://godream.com.br/evento/brunch-run-2026-vaicorrendo-9319913"
+    },
+    {
+        "nome": "Patrocínio Outono Run",
+        "cidade": "Patrocínio Paulista- SP",
+        "distancias": "5k, 10k",
+        "organizacao": "Personew",
+        "data": "12 de abr. de 2026",
+        "link": "http://www.personew.esp.br/patrociniooutonorun"
+    },
+    {
+        "nome": "6ª COOPERATIVA EM DUPLA SICOOB COCRED - SERRANA",
+        "cidade": "Serrana - SP",
+        "distancias": "5k, 10k",
+        "organizacao": "Sicoob Cocred",
+        "data": "12 de abr. de 2026",
+        "link": null
+    },
+    {
+        "nome": "SEGURALTA MARATHON 2026",
+        "cidade": "São José do Rio Preto - SP",
+        "distancias": "5k, 10k, 21k, 42k",
+        "organizacao": "SBRSPORTS - Eventos Esportivos",
+        "data": "12 de abr. de 2026",
+        "link": "https://www.ticketsports.com.br/e/seguralta-marathon-74869"
+    },
+    {
+        "nome": "7ª ARTESANO COLORS RUN",
+        "cidade": "Ribeirão Preto - SP",
+        "distancias": "4k, 8k, Caminhada",
+        "organizacao": "JBX Sports",
+        "data": "12 de abr. de 2026",
+        "link": "https://oticketplay.com.br/event/t-7-artesano-colors-run"
+    },
+    {
+        "nome": "FLASHBACK MORNING RUN 2026",
+        "cidade": "Ribeirão Preto - SP",
+        "distancias": "5k",
+        "organizacao": "Talita & Costa Eventos Esportivos",
+        "data": "12 de abr. de 2026",
+        "link": "https://www.ticketsports.com.br/e/flashback-morning-run-2026-74716"
+    },
+    {
+        "nome": "2ª TABA RUNNING",
+        "cidade": "Tabatinga - SP",
+        "distancias": "5k, 10k",
+        "organizacao": "Incentivo Esporte",
+        "data": "19 de abr. de 2026",
+        "link": "https://www.vaicorrendo.com/l/tabarunning-2026-tabatinga/"
+    },
+    {
+        "nome": "17ª CORRIDA DO TRABALHADOR MARIA ZEFERINA BALDAIA",
+        "cidade": "Sertãozinho - SP",
+        "distancias": "5k, 10k",
+        "organizacao": "Minhas Inscrições",
+        "data": "3 de mai. de 2026",
+        "link": null
+    },
+    {
+        "nome": "15ª CORRIDA GRACIANO",
+        "cidade": "Araraquara - SP",
+        "distancias": "6k",
+        "organizacao": "Luciano Oliveira e Educadora Física Susana Pedra",
+        "data": "17 de mai. de 2026",
+        "link": "https://minhasinscricoes.com.br/Evento/15CorridaeCaminhadaGraciano2026"
+    },
+    {
+        "nome": "4º RUNNING CHALLENGE VINÍCOLA TERRAS ALTAS",
+        "cidade": "Ribeirão Preto - SP",
+        "distancias": "5k, 10k",
+        "organizacao": "TF Sports",
+        "data": "17 de mai. de 2026",
+        "link": null
+    },
+    {
+        "nome": "5ª CROSS COUNTRY CALIPAL",
+        "cidade": "Jaboticabal - SP",
+        "distancias": "12k, 6k",
+        "organizacao": "Corrida Ativa Esportes",
+        "data": "17 de mai. de 2026",
+        "link": null
+    },
+    {
+        "nome": "Corrida Unimed Bebedouro",
+        "cidade": "Bebedouro - SP",
+        "distancias": "5k, 10k, KIDS, Caminhada, Cãominhada",
+        "organizacao": "Personew",
+        "data": "17 de mai. de 2026",
+        "link": "http://www.personew.esp.br/unimedbebedouro"
+    },
+    {
+        "nome": "CORRIDA DA SOLIDARIEDADE - CAMPANHA DO AGASALHO",
+        "cidade": "Ribeirão Preto - SP",
+        "distancias": "5k, Caminhada",
+        "organizacao": "Ticket Sports",
+        "data": "17 de mai. de 2026",
+        "link": null
+    },
+    {
+        "nome": "14 São Joaquim Run",
+        "cidade": "Franca-SP",
+        "distancias": "5k, 10k, 15k, KIDS, Caminhada",
+        "organizacao": "Personew",
+        "data": "24 de mai. de 2026",
+        "link": "https://www.personew.esp.br/saojoaquimrun"
+    },
+    {
+        "nome": "CIRCUITO PAGUE MENOS",
+        "cidade": "Ribeirão Preto - SP",
+        "distancias": "5k, 10k",
+        "organizacao": "Chelso Sports",
+        "data": "14 de jun. de 2026",
+        "link": "https://www.corridapaguemenos.com.br/"
+    },
+    {
+        "nome": "Circuito de Corridas Pague Menos - 4ª Etapa",
+        "cidade": "Ribeirão Preto-SP",
+        "distancias": "5k, 10k",
+        "organizacao": "Chelso Sports",
+        "data": "14 de jun. de 2026",
+        "link": "https://www.ticketsports.com.br/e/circuito-de-corridas-pague-menos-4-etapa-ribeirao-preto-2026-74515"
+    },
+    {
+        "nome": "2ª 21K OFICIAL DE RIBEIRÃO PRETO MULTIVC",
+        "cidade": "Ribeirão Preto - SP",
+        "distancias": "21k",
+        "organizacao": "Matheus Equilibrio",
+        "data": "21 de jun. de 2026",
+        "link": "https://www.ticketsports.com.br/e/21k-oficial-de-ribeirao-preto-multivc-73055"
+    },
+    {
+        "nome": "21K Oficial de Ribeirão Preto MultiVC",
+        "cidade": "Ribeirão Preto-SP",
+        "distancias": "21k",
+        "organizacao": "Matheus Equilibrio",
+        "data": "21 de jun. de 2026",
+        "link": "https://www.ticketsports.com.br/e/21k-oficial-de-ribeirao-preto-multivc-73055"
+    },
+    {
+        "nome": "COPA RUN",
+        "cidade": "Ribeirão Preto - SP",
+        "distancias": "​",
+        "organizacao": "JBX Sports",
+        "data": "27 de jun. de 2026",
+        "link": "https://www.instagram.com/p/DTS07lMEcGa/?hl=pt-br"
+    },
+    {
+        "nome": "CIRCUITO DAS ESTAÇÕES RIBEIRÃO PRETO - INVERNO",
+        "cidade": "Ribeirão Preto - SP",
+        "distancias": "5k, 10k",
+        "organizacao": "Norte Marketing Esportivo",
+        "data": "28 de jun. de 2026",
+        "link": "https://www.circuitodasestacoes.com.br/ribeirao-preto/inverno"
+    },
+    {
+        "nome": "Meia Maratona Oficial de Franca",
+        "cidade": "Franca-SP",
+        "distancias": "5k, 10k, 21k",
+        "organizacao": "Personew",
+        "data": "6 de set. de 2026",
+        "link": "https://www.personew.esp.br/meiamaratonadefranca"
+    }
+]

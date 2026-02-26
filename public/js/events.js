@@ -1,0 +1,11 @@
+////////////////////////////////////////////////////////////////////////////
+//Função para pegar os dados das proximas corridas
+////////////////////////////////////////////////////////////////////////////
+
+//////Impotando os eventos de eventsDate.js
+import { events } from "./data/eventsDate.js";
+
+//Mostra os dados no console.log
+console.log("Eventos importados:", events);
+
+console.log(events[0])
