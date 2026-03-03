@@ -356,6 +356,15 @@ header{
     width: 100%;
 }
 
+.info iframe{
+    width: 100% !important;
+    height: 500px;
+}
+
+.activity-body{
+    display: none !important;
+}
+
 
 @media (min-width: 1100px) {
 
