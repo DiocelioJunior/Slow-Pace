@@ -342,5 +342,13 @@ export const events = [
         "organizacao": "Personew",
         "data": "6 de set. de 2026",
         "link": "https://www.personew.esp.br/meiamaratonadefranca"
+    },
+    {
+        "nome": "2° Corrida das Cores - Franca",
+        "cidade": "Franca-SP",
+        "distancias": "Kids Caminhada, 5k, 8k",
+        "organizacao": "Corrida das Cores",
+        "data": "6 de abr. de 2026",
+        "link": "../public/corrida_das_cores.html"
     }
 ]
