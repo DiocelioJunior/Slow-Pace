@@ -349,6 +349,6 @@ export const events = [
         "distancias": "Kids Caminhada, 5k, 8k",
         "organizacao": "Corrida das Cores",
         "data": "6 de abr. de 2026",
-        "link": "../public/corrida_das_cores.html"
+        "link": "public/corrida_das_cores.html"
     }
 ]
